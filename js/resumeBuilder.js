@@ -60,7 +60,7 @@ var work = {
     {
         "employer": "DFS Green",
         "title" : ["Operations Manager", "Director Of Sales"],
-        "location" : "Milbrae",
+        "location" : "Milbrae, CA",
         "dates" : "2010 -2015",
         "description" : "Scheduled crews and jobs, mobilizing teams as well as organizing a sales team"
     },
@@ -185,9 +185,4 @@ projects.display();
 
 
 
-
-
-
-
-
-$("#mapDiv").append(googleMap);
+$("#map-div").append(googleMap);
