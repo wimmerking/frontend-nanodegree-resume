@@ -15,7 +15,7 @@ var bio = {
 
 	"welcomeMessage" : "Hi there!",
 	"PictureURL" : "images/me.jpg",
-    "skills" : ["awesomeness", "programming", "rock climbing", "JS"],
+    "skills" : ["Programming", "Photography", "JS","Awesomeness"],
 
 };
 bio.display = function() {
