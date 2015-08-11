@@ -14,7 +14,7 @@ var bio = {
 	},
 
 	"welcomeMessage" : "Hi there!",
-	"PictureURL" : "images/me.jpg",
+	"PictureURL" : "images/fry.jpg",
     "skills" : ["Programming", "Photography", "JS","Awesomeness"],
 
 };
