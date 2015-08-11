@@ -53,7 +53,7 @@ bio.display = function() {
         });
     }
 };
-bio.display();
+
 
 var work = {
     "jobs" : [
@@ -94,7 +94,6 @@ for (job in work.jobs) {
     $(".work-entry:last").prepend(formattedLocation);
 }
 };
-displayWork();
 var education = {
 	"schools" : [
 	{
@@ -139,7 +138,7 @@ education.display = function() {
 		}
     }
 };
-education.display();
+
 
 
 
@@ -155,8 +154,6 @@ var projects = {
 		}
 ]
 };
-
-
 projects.display =function() {
 	for (project in projects.projects) {
 		$("#projects").append(HTMLprojectStart);
@@ -179,7 +176,11 @@ projects.display =function() {
 
 	}
 };
+
 projects.display();
+bio.display();
+displayWork();
+education.display();
 
 
 

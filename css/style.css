@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #5d8aa8;
+  color: #5a5a5a;
   line-height: 48px;
   display: inline;
 }
@@ -105,11 +105,11 @@ a {
 }
 
 .orange {
-  background-color: #5d8aa8;
+  background-color: #5dbaa3
 }
-#304959
+
 .orange-text {
-  color: #304959;
+  color: #9fc5bb;
 }
 
 .white-text {
@@ -124,12 +124,12 @@ a {
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+  background-color: #a6a6a6;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #304959;
+  background-color: #959595;
 }
 
 .flex-box {
